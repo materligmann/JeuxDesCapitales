@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FBCBFC8215999C7005B59D6 /* BungeeInline-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FBCBFC7215999C7005B59D6 /* BungeeInline-Regular.ttf */; };
 		5FD782252158685900F1EE5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD782242158685900F1EE5E /* AppDelegate.swift */; };
 		5FD782272158685900F1EE5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD782262158685900F1EE5E /* ViewController.swift */; };
 		5FD7822A2158685900F1EE5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD782282158685900F1EE5E /* Main.storyboard */; };
 		5FD7822C2158685C00F1EE5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD7822B2158685C00F1EE5E /* Assets.xcassets */; };
 		5FD7822F2158685C00F1EE5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD7822D2158685C00F1EE5E /* LaunchScreen.storyboard */; };
+		5FD7823721586CA300F1EE5E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD7823621586CA300F1EE5E /* Model.swift */; };
+		5FD7823921586CB800F1EE5E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD7823821586CB800F1EE5E /* Question.swift */; };
+		5FD7823B21586CC800F1EE5E /* Continent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD7823A21586CC800F1EE5E /* Continent.swift */; };
+		5FD7823D2159648700F1EE5E /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD7823C2159648700F1EE5E /* Localization.swift */; };
+		5FD7823F2159665100F1EE5E /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD7823E2159665100F1EE5E /* Mode.swift */; };
+		5FD78241215969B100F1EE5E /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD78240215969B100F1EE5E /* SettingsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5FBCBFC7215999C7005B59D6 /* BungeeInline-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BungeeInline-Regular.ttf"; sourceTree = "<group>"; };
 		5FD782212158685900F1EE5E /* JeuxDesCapitals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeuxDesCapitals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD782242158685900F1EE5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FD782262158685900F1EE5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,12 @@
 		5FD7822B2158685C00F1EE5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FD7822E2158685C00F1EE5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FD782302158685C00F1EE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FD7823621586CA300F1EE5E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5FD7823821586CB800F1EE5E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		5FD7823A21586CC800F1EE5E /* Continent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continent.swift; sourceTree = "<group>"; };
+		5FD7823C2159648700F1EE5E /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		5FD7823E2159665100F1EE5E /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
+		5FD78240215969B100F1EE5E /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +68,16 @@
 		5FD782232158685900F1EE5E /* JeuxDesCapitals */ = {
 			isa = PBXGroup;
 			children = (
+				5FBCBFC7215999C7005B59D6 /* BungeeInline-Regular.ttf */,
 				5FD782242158685900F1EE5E /* AppDelegate.swift */,
 				5FD782262158685900F1EE5E /* ViewController.swift */,
 				5FD782282158685900F1EE5E /* Main.storyboard */,
+				5FD78240215969B100F1EE5E /* SettingsVC.swift */,
+				5FD7823621586CA300F1EE5E /* Model.swift */,
+				5FD7823E2159665100F1EE5E /* Mode.swift */,
+				5FD7823C2159648700F1EE5E /* Localization.swift */,
+				5FD7823821586CB800F1EE5E /* Question.swift */,
+				5FD7823A21586CC800F1EE5E /* Continent.swift */,
 				5FD7822B2158685C00F1EE5E /* Assets.xcassets */,
 				5FD7822D2158685C00F1EE5E /* LaunchScreen.storyboard */,
 				5FD782302158685C00F1EE5E /* Info.plist */,
@@ -122,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FBCBFC8215999C7005B59D6 /* BungeeInline-Regular.ttf in Resources */,
 				5FD7822F2158685C00F1EE5E /* LaunchScreen.storyboard in Resources */,
 				5FD7822C2158685C00F1EE5E /* Assets.xcassets in Resources */,
 				5FD7822A2158685900F1EE5E /* Main.storyboard in Resources */,
@@ -135,8 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD7823721586CA300F1EE5E /* Model.swift in Sources */,
+				5FD7823B21586CC800F1EE5E /* Continent.swift in Sources */,
+				5FD7823D2159648700F1EE5E /* Localization.swift in Sources */,
+				5FD7823921586CB800F1EE5E /* Question.swift in Sources */,
 				5FD782272158685900F1EE5E /* ViewController.swift in Sources */,
+				5FD78241215969B100F1EE5E /* SettingsVC.swift in Sources */,
 				5FD782252158685900F1EE5E /* AppDelegate.swift in Sources */,
+				5FD7823F2159665100F1EE5E /* Mode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,13 +311,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DHKX3GQE6U;
+				DEVELOPMENT_TEAM = BAJCWWQ6Q6;
 				INFOPLIST_FILE = JeuxDesCapitals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = materligmann.JeuxDesCapitals;
+				PRODUCT_BUNDLE_IDENTIFIER = materligmann.JeuxDesCapitales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,13 +330,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DHKX3GQE6U;
+				DEVELOPMENT_TEAM = BAJCWWQ6Q6;
 				INFOPLIST_FILE = JeuxDesCapitals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = materligmann.JeuxDesCapitals;
+				PRODUCT_BUNDLE_IDENTIFIER = materligmann.JeuxDesCapitales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
