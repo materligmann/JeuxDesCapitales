@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var nextButton: UIButton!
     
     var currentQuestion : Question?
-    let model = Model()
+    let model = Model(playMode: .entrainement)
     
     override func viewDidLoad() {
         super.viewDidLoad()

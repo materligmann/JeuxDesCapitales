@@ -7,18 +7,20 @@
 //
 
 import Foundation
-
+enum PlayMode {
+    case entrainement
+    case jeu
+}
 class Model {
-    
+    var playMode : PlayMode
+    var mode : Mode = .classic
     var questions = [Question]()
     var liste = [Question]()
-    var localization : Localization = .all
-    {
-        didSet {
-            chargeListe()
-        }
+    var localization : Localization = .all {
+    didSet {
+        chargeListe()
     }
-    var mode : Mode = .classic
+}
     
     
     func chargeListe() {
@@ -52,7 +54,6 @@ class Model {
             }
         }
     }
-    
     func getQuestion() -> Question? {
         if let question = liste.randomElement() {
             return question
@@ -60,12 +61,29 @@ class Model {
             return nil
         }
     }
+    func getThreeChoice() -> [String] {
+        var choices = [String]()
+        for _ in 1...3 {
+            if mode == .classic {
+                if let choice = liste.randomElement()?.capital {
+                    choices.append(choice)
+                }
+            }
+            if mode == .reverse {
+                if let choice = liste.randomElement()?.pays {
+                    choices.append(choice)
+                }
+            }
+        }
+        return choices
+    }
     
     private func addQuestion(question : Question) {
         questions.append(question)
     }
     
-    init() {
+    init(playMode : PlayMode) {
+        self.playMode = playMode
         let model = self
         model.addQuestion(question: Question(capital: "Kaboul", pays: "Afghanistan", continent: .asieOcéanie))
         model.addQuestion(question: Question(capital: "Pretoria" , pays: "Afrique du Sud", continent: .afrique))

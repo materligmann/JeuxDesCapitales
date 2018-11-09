@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5FBCBFC8215999C7005B59D6 /* BungeeInline-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FBCBFC7215999C7005B59D6 /* BungeeInline-Regular.ttf */; };
+		5FC1AA462195CBE300CA1CD8 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC1AA452195CBE300CA1CD8 /* GameVC.swift */; };
 		5FD782252158685900F1EE5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD782242158685900F1EE5E /* AppDelegate.swift */; };
 		5FD782272158685900F1EE5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD782262158685900F1EE5E /* ViewController.swift */; };
 		5FD7822A2158685900F1EE5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD782282158685900F1EE5E /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		5FBCBFC7215999C7005B59D6 /* BungeeInline-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BungeeInline-Regular.ttf"; sourceTree = "<group>"; };
+		5FC1AA452195CBE300CA1CD8 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 		5FD782212158685900F1EE5E /* JeuxDesCapitals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeuxDesCapitals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD782242158685900F1EE5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FD782262158685900F1EE5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				5FD782242158685900F1EE5E /* AppDelegate.swift */,
 				5FD782262158685900F1EE5E /* ViewController.swift */,
 				5FD782282158685900F1EE5E /* Main.storyboard */,
+				5FC1AA452195CBE300CA1CD8 /* GameVC.swift */,
 				5FD78240215969B100F1EE5E /* SettingsVC.swift */,
 				5FD7823621586CA300F1EE5E /* Model.swift */,
 				5FD7823E2159665100F1EE5E /* Mode.swift */,
@@ -164,6 +167,7 @@
 				5FD782272158685900F1EE5E /* ViewController.swift in Sources */,
 				5FD78241215969B100F1EE5E /* SettingsVC.swift in Sources */,
 				5FD782252158685900F1EE5E /* AppDelegate.swift in Sources */,
+				5FC1AA462195CBE300CA1CD8 /* GameVC.swift in Sources */,
 				5FD7823F2159665100F1EE5E /* Mode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,7 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BAJCWWQ6Q6;
 				INFOPLIST_FILE = JeuxDesCapitals/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BAJCWWQ6Q6;
 				INFOPLIST_FILE = JeuxDesCapitals/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
